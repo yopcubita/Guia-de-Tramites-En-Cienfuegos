@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yopcubita.github.io/Guia-de-Tramites-En-Cienfuegos/sitemap.xml
