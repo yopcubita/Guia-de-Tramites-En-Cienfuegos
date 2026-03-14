@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Trámites en Cienfuegos</title>
+
+    <meta name="description" content="Guía completa de trámites en Cienfuegos: pasaporte, TCP, notaría, vivienda, ONAT, banco, transporte y más. Información clara y actualizada.">
+    <meta name="keywords" content="trámites en Cienfuegos, pasaporte Cienfuegos, licencia TCP Cienfuegos, notaría Cienfuegos, vivienda Cienfuegos, ONAT Cienfuegos">
+
+    <!-- ICONOS -->
+    <link rel="stylesheet" href="icons.css">
+
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- MAPA -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+
+    <!-- RICH SNIPPETS -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Guía de Trámites en Cienfuegos",
+      "url": "https://TU-USUARIO.github.io",
+      "description": "Guía completa de trámites en Cienfuegos.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Proyecto Independiente Cienfuegos"
+      }
+    }
+    </script>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav class="navbar">
+    <div class="logo">Cienfuegos Trámites</div>
+    <ul class="nav-links">
+        <li><a href="#tramites">Trámites</a></li>
+        <li><a href="#mapa">Mapa</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><button id="darkToggle">🌙</button></li>
+    </ul>
+</nav>
+
+<header class="hero">
+    <h1>Guía de Trámites en Cienfuegos</h1>
+    <p>Información clara, actualizada y explicada paso a paso.</p>
+    <input type="text" id="searchInput" placeholder="Buscar un trámite...">
+</header>
+
+<main id="tramites">
+
+    <h2 class="section-title">Trámites principales</h2>
+
+    <div class="grid">
+
+        <a href="tramites/pasaporte.html" class="card fade">
+            <i class="icon-passport"></i>
+            <h3>Pasaporte</h3>
+            <p>Requisitos, pasos y oficina en Cienfuegos.</p>
+        </a>
+
+        <a href="tramites/tcp.html" class="card fade">
+            <i class="icon-briefcase"></i>
+            <h3>Licencia TCP</h3>
+            <p>Cómo solicitar y registrarse en ONAT.</p>
+        </a>
+
+        <a href="tramites/notaria.html" class="card fade">
+            <i class="icon-document"></i>
+            <h3>Notaría</h3>
+            <p>Poderes, compra-venta, legalizaciones.</p>
+        </a>
+
+        <a href="tramites/vivienda.html" class="card fade">
+            <i class="icon-home"></i>
+            <h3>Vivienda</h3>
+            <p>Cambios, certificaciones y trámites legales.</p>
+        </a>
+
+        <a href="tramites/onat.html" class="card fade">
+            <i class="icon-tax"></i>
+            <h3>ONAT</h3>
+            <p>Declaración jurada, inscripción y pagos.</p>
+        </a>
+
+        <a href="tramites/certificaciones.html" class="card fade">
+            <i class="icon-certificate"></i>
+            <h3>Certificaciones</h3>
+            <p>Nacimiento, matrimonio, defunción, soltería.</p>
+        </a>
+
+        <a href="tramites/banco.html" class="card fade">
+            <i class="icon-bank"></i>
+            <h3>Bancos</h3>
+            <p>Cuentas, tarjetas, transferencias.</p>
+        </a>
+
+        <a href="tramites/transporte.html" class="card fade">
+            <i class="icon-bus"></i>
+            <h3>Transporte</h3>
+            <p>Rutas, precios y terminales.</p>
+        </a>
+
+    </div>
+
+</main>
+
+<section id="mapa">
+    <h2 class="section-title">Mapa de Oficinas</h2>
+    <div id="map"></div>
+</section>
+
+<section id="contacto">
+    <h2 class="section-title">Compartir</h2>
+
+    <div class="share-buttons">
+        <a href="#" class="share fb">Facebook</a>
+        <a href="#" class="share wa">WhatsApp</a>
+        <a href="#" class="share tg">Telegram</a>
+    </div>
+</section>
+
+<footer>
+    © 2026 Guía de Trámites en Cienfuegos
+</footer>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

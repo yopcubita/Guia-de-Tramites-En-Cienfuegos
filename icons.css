@@ -1,0 +1,10 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+
+.icon-passport::before { content: "\f5ab"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
+.icon-briefcase::before { content: "\f0b1"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
+.icon-document::before { content: "\f15c"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
+.icon-home::before { content: "\f015"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
+.icon-tax::before { content: "\f571"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
+.icon-certificate::before { content: "\f0a3"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
+.icon-bank::before { content: "\f19c"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
+.icon-bus::before { content: "\f207"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
